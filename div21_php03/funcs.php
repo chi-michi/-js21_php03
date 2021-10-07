@@ -37,7 +37,7 @@ try {
 }catch(PDOException $e){
     echo 'DB接続エラー： '. $e->getMessage();
 
-}
+}}
 
 
 //SQLエラー関数：sql_error($stmt)
